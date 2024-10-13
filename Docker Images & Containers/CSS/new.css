@@ -1,0 +1,58 @@
+.lap, .lap1, .lap1, .lap3, .lap4, .lap5{
+	position: relative;
+	flex: 33%;
+	clear: both;
+	padding: 1px;
+}
+
+#lap{
+	display: inline-flex;
+}
+#Portfolio #lap{
+	box-sizing: border-box;
+}
+
+
+#lap img{
+	width: 350px;
+	height: 230px;
+}
+
+#lap{
+	position: relative;
+	flex: 20%;
+	clear: both;
+	padding: 1px;
+	display: inline-flex;
+}
+
+#lap1 img{
+	width: 350px;
+	height: 230px;
+}
+
+#lap1{
+	position: relative;
+	flex: 20%;
+	clear: both;
+	padding: 1px;
+	display: inline-flex;
+}
+
+<div id="lap1">
+				<div class="lap4">
+					<img src="./image/lap4.jpg">
+				</div>
+				<div class="lap5">
+					<img src="./image/lap5.jpg">
+				</div>
+			</div>
+
+
+			
+
+							<img src="./image/lap1.jpg">
+			<div class="overlay1">
+							<a href="http://educategh.com/">GEEKASOFT</a>
+							<p>A creative company dedicated to providing solutions to you, business organizations and the world in general.</p>
+						</div>
