@@ -35,8 +35,8 @@ jobs:
           password: ${{ secrets.DOCKER_HUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/devoyinda:v3 .
+        run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/github-actions:v3 .
 
       - name: Push Docker image
-        run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/devoyinda:v3
+        run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/github-actions:v3
 
