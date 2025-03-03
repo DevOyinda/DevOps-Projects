@@ -17,7 +17,7 @@ steps:
 - name: Run tests
   run: npm test
   # 'npm test' runs the test script defined in your 'package.json'. It's crucial for ensuring that your code works as expected before deployment.
- Step 5: Log in to Docker Hub
+  # Step 5: Log in to Docker Hub
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
